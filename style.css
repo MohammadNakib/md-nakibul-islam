@@ -148,8 +148,8 @@ button {
 
 
 .brand-logo-box {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 
   display: flex;
   align-items: center;
@@ -159,7 +159,7 @@ button {
 
   overflow: hidden;
 
-  border-radius: 8px;
+  border-radius: 6px;
 
   background: #050505;
 }
@@ -171,11 +171,10 @@ button {
 
   display: block;
 
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 
-  transform: scale(1.55);
-  transform-origin: center;
+  transform: none;
 }
 
 
@@ -1735,8 +1734,8 @@ button {
 
 
   .brand-logo-box {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 
 
